@@ -1,0 +1,110 @@
+body{
+    background-color:#ccff66;
+    text-align:center;
+    animation:bgGlitch 0.6s infinite;
+
+    color:black;
+}
+
+h1{
+    font-size:120px;
+    font-weight:100;
+    margin-top:50px;
+}
+
+/* 自画像 */
+
+.license-image{
+    width:120px;
+
+    display:block;
+    margin:100px auto;
+}
+
+/* 作品一覧 */
+
+.container{
+    display:flex;
+
+    justify-content:center;
+
+    gap:50px;
+
+    margin-top:100px;
+    margin-bottom:150px;
+}
+
+/* 作品画像 */
+
+.container img{
+    width:250px;
+    height:250px;
+
+    object-fit:cover;
+}
+
+/* ホバー */
+
+img:hover{
+    transform:scale(1.1);
+    transition:0.3s;
+}
+
+img{
+    cursor:url("imechiumayaiconpng.png"), auto;
+}
+
+/* Works */
+
+.works-link{
+    font-size:2rem;
+
+    text-decoration:none;
+
+    color:black;
+
+    transition:0.3s;
+}
+
+.works-link:hover{
+    letter-spacing:10px;
+}
+
+/* Youtube */
+
+.youtube-link{
+    text-decoration:none;
+    color:black;
+}
+
+/* Contact */
+
+.contact{
+    margin-top:200px;
+    margin-bottom:100px;
+}
+
+.contact h2{
+    font-size:3rem;
+    font-weight:100;
+
+    margin-bottom:20px;
+}
+
+.contact p{
+    margin-bottom:20px;
+}
+
+.contact-link{
+    font-size:1.5rem;
+
+    color:black;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.contact-link:hover{
+    letter-spacing:10px;
+}
